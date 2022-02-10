@@ -1,0 +1,39 @@
+=letters
+    font-weight: normal
+    color: #6E757A
+    font-size: calc(10px + 6 * ((100vw - 320px) / 680)
+    letter-spacing: 0px
+    line-height: 1.4em
+=lettersCapital
+    font-weight: 600
+    color:#314584
+    
+.about .container 
+    display: flex
+    align-items: center
+    justify-content: space-between
+.about 
+    margin-top: calc(30px + 20 * ((100vw - 320px) / 680)
+    margin-bottom: calc(30px + 20 * ((100vw - 320px) / 680)
+    &__right 
+        display: none
+    &__title 
+        +lettersCapital
+        font-size: calc(40px + 10 * ((100vw - 320px) / 680))
+        line-height: 1.3em
+        letter-spacing: 1px
+        margin-bottom: calc(40px + 6 * ((100vw - 320px) / 680)
+    &__subtitle 
+        +letters
+        display: inline-block
+        margin-bottom: calc(40px + 6 * ((100vw - 320px) / 680)
+    &-buttons 
+        &__button 
+            margin-right:  calc(20px + ((100vw - 320px) / 680)
+        &__text 
+            font-size: calc(10px + 6 * ((100vw - 320px) / 680)
+            letter-spacing: 0px
+            line-height: 1.2em
+            color: #314584
+            font-weight: 600
+            font-family: "Work Sans"

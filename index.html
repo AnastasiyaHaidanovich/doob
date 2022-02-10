@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    
+    <script src="/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -68,7 +73,39 @@
             </li>
         </ul>
     </div>
+    <main>
+        <section class="about">
+            <div class="container">
+                <h1 class="visually-hidden">Digital Agency Doob</h1>
+                <div class="about__left">
+                    <h2 class="about__title">The Spirit of Digital Agency.</h2>
+                    <span class="about__subtitle">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</span>
+                    <div class="about-buttons">
+                        <button class="about-buttons__button button-red">More About us</button>
+                        <span class="about-buttons__text">Get in Touch.</span>
+                    </div>
+                </div>
+                <div class="about__right">
+                    <div class="slider lazy about__slider">
+                        <div><img data-lazy="image/about-1.png" width="100%"/></div>
+                        <div><img data-lazy="image/about-2.jpg" width="100%"/></div>
+                        <div><img data-lazy="image/about-3.jpg" width="100%"/></div>
+                        <div><img data-lazy="image/about-4.jpg" width="100%"/></div>
+                        
+                        
+                        
+                        
+                        <!-- <div class="slider__item-1"></div>
+                        <div class="slider__item-2"></div>
+                        <div class="slider__item-3"></div>
+                        <div class="slider__item-4"></div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
+<script src="./slick-carousel.js"></script>
 <script src="./main.js"></script>
 </html>
