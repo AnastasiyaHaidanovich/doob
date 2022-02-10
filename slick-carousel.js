@@ -1,5 +1,4 @@
-$('.lazy').slick({
-    lazyLoad: 'ondemand',
+$('.single-item').slick({
     dots: true,
     arrows: false,
     autoplay: true,
